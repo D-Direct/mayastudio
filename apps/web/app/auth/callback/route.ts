@@ -9,10 +9,21 @@ export async function GET(request: NextRequest) {
   // Log all parameters for debugging
   console.log('Auth callback URL:', requestUrl.toString())
   console.log('Search params:', Object.fromEntries(searchParams.entries()))
+  console.log('All search param keys:', Array.from(searchParams.keys()))
   console.log('Hash:', requestUrl.hash)
+  console.log('Pathname:', requestUrl.pathname)
+
+  // Check for error first
+  const error_description = searchParams.get('error_description')
+  if (error_description) {
+    console.error('OAuth error in URL:', error_description)
+    return NextResponse.redirect(`${origin}/auth/auth-code-error?error=${encodeURIComponent(error_description)}`)
+  }
 
   const code = searchParams.get('code')
   const next = searchParams.get('next') ?? '/dashboard'
+
+  console.log('Code parameter:', code ? 'present' : 'missing')
 
   if (code) {
     const supabase = await createClient()
