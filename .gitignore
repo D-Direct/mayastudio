@@ -48,6 +48,8 @@ coverage/
 credentials.json
 *.pem
 *.key
+CREDENTIALS.md
+credentials.md
 
 # Temporary files
 tmp/

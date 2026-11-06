@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(git push -u origin master)"
+      "Bash(git push -u origin master)",
+      "Bash(git push origin master)"
     ],
     "deny": [],
     "ask": []
