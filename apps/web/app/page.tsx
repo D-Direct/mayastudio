@@ -8,6 +8,9 @@ export default function Home() {
         <p className="text-xl text-gray-600 mb-8">
           Multi-Speaker AI Voice & Video Studio for YouTube Shorts & Series
         </p>
+        <p className="text-sm text-gray-500 mb-4">
+          Create engaging video content with AI-powered voice synthesis
+        </p>
         <div className="flex gap-4 justify-center">
           <a
             href="/login"
