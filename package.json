@@ -1,0 +1,24 @@
+{
+  "name": "mayastudio-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Multi-Speaker AI Voice & Video Studio for YouTube Shorts & Series",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/D-Direct/mayastudio.git"
+  },
+  "author": "D-Direct",
+  "license": "MIT",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:api": "cd apps/api && uvicorn app.main:app --reload",
+    "build:web": "cd apps/web && npm run build",
+    "install:all": "npm install && cd apps/web && npm install"
+  },
+  "devDependencies": {
+    "tailwindcss-animate": "^1.0.7"
+  }
+}

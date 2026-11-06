@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git push -u origin master)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
