@@ -36,7 +36,7 @@ pydantic-settings==2.1.0
 ffmpeg-python==0.2.0
 
 # HTTP Requests
-httpx==0.25.1
+httpx==0.24.1
 requests==2.31.0
 
 # JWT & Security

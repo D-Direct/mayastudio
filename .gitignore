@@ -46,10 +46,12 @@ coverage/
 
 # Credentials
 credentials.json
+google-service-account.json
 *.pem
 *.key
 CREDENTIALS.md
 credentials.md
+GOOGLE_CREDENTIALS.txt
 
 # Temporary files
 tmp/
