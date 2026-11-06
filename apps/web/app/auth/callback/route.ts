@@ -3,7 +3,14 @@ import { NextResponse } from 'next/server'
 import type { NextRequest } from 'next/server'
 
 export async function GET(request: NextRequest) {
-  const { searchParams, origin } = new URL(request.url)
+  const requestUrl = new URL(request.url)
+  const { searchParams, origin } = requestUrl
+
+  // Log all parameters for debugging
+  console.log('Auth callback URL:', requestUrl.toString())
+  console.log('Search params:', Object.fromEntries(searchParams.entries()))
+  console.log('Hash:', requestUrl.hash)
+
   const code = searchParams.get('code')
   const next = searchParams.get('next') ?? '/dashboard'
 
