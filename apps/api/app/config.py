@@ -38,7 +38,7 @@ class Settings(BaseSettings):
     # Google Cloud
     GOOGLE_CLIENT_ID: str
     GOOGLE_CLIENT_SECRET: str
-    GEMINI_API_KEY: str
+    GEMINI_API_KEY: Optional[str] = None  # Optional - can use service account instead
     GOOGLE_APPLICATION_CREDENTIALS_JSON: Optional[str] = None
 
     # Google Drive
