@@ -1,0 +1,801 @@
+{
+  "schema_version": "0.1.0",
+  "project": {
+    "title": "Maya",
+    "episode_id": "E01",
+    "scene_id": "E01-S03",
+    "scene_title": "Presentation confrontation",
+    "source": "User-supplied 32-shot scene",
+    "planned_duration_ms": 144000
+  },
+  "characters": {
+    "amaya": {
+      "name": "Amaya",
+      "reference_id": "CHR-A",
+      "language_code": "si-LK",
+      "voice_name": null,
+      "gender_preference": "FEMALE",
+      "voice_profile": "adult woman; natural Sri Lankan Sinhala; composed, articulate, restrained",
+      "speaking_rate": 0.96,
+      "pitch_semitones": 0.0
+    },
+    "aken": {
+      "name": "Aken",
+      "reference_id": "CHR-K",
+      "language_code": "si-LK",
+      "voice_name": null,
+      "gender_preference": "MALE",
+      "voice_profile": "adult man; natural Sri Lankan Sinhala; controlled, authoritative, warm low register",
+      "speaking_rate": 0.97,
+      "pitch_semitones": -1.0
+    },
+    "dilan": {
+      "name": "Dilan",
+      "reference_id": "CHR-D",
+      "language_code": "si-LK",
+      "voice_name": null,
+      "gender_preference": "MALE",
+      "voice_profile": "adult man; natural Sri Lankan Sinhala; smooth professional delivery",
+      "speaking_rate": 1.0,
+      "pitch_semitones": 0.0
+    }
+  },
+  "audio_settings": {
+    "output_encoding": "LINEAR16",
+    "sample_rate_hz": 24000,
+    "final_export_format": "wav",
+    "normalize_loudness_on_assembly": true,
+    "default_room_tone": "silence_for_first_test",
+    "preserve_original_sinhala": true,
+    "allow_auto_translation": false,
+    "allow_auto_rewriting": false
+  },
+  "test_settings": {
+    "mode": "per_line_then_assemble",
+    "generate_dialogue_only_first": true,
+    "include_ambience_in_first_pass": false,
+    "export_individual_clips": true,
+    "export_combined_audio": true,
+    "export_timing_report": true,
+    "compare_planned_vs_actual_durations": true,
+    "fail_if_voice_unavailable": true
+  },
+  "shots": [
+    {
+      "shot_id": "E01-S03-SH01",
+      "sequence": 1,
+      "planned_start_ms": 0,
+      "planned_duration_ms": 5000,
+      "action_context": "Wide master, room tone",
+      "audio": {
+        "type": "room_tone",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH02",
+      "sequence": 2,
+      "planned_start_ms": 5000,
+      "planned_duration_ms": 6000,
+      "action_context": "Amaya speaks calmly to the table",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "amaya",
+        "text_original": "මම මේ සින්දුව ගොඩක් වාරයක් ඇහුවා.",
+        "text_for_tts": "මම මේ සින්දුව ගොඩක් වාරයක් ඇහුවා.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "calm_reflective",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH03",
+      "sequence": 3,
+      "planned_start_ms": 11000,
+      "planned_duration_ms": 8000,
+      "action_context": "Amaya thoughtful, looking across listeners",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "amaya",
+        "text_original": "ඒක කියන්නේ කෙනෙක් ගිහින් ගියාට පස්සෙත්, සාමාන්‍ය තැනක් එයාගේ නැතිකම තවමත් අල්ලගෙන ඉන්න හැටි ගැන.",
+        "text_for_tts": "ඒක කියන්නේ කෙනෙක් ගිහින් ගියාට පස්සෙත්, සාමාන්‍ය තැනක් එයාගේ නැතිකම තවමත් අල්ලගෙන ඉන්න හැටි ගැන.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "thoughtful",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH04",
+      "sequence": 4,
+      "planned_start_ms": 19000,
+      "planned_duration_ms": 3000,
+      "action_context": "",
+      "audio": {
+        "type": "room_tone",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH05",
+      "sequence": 5,
+      "planned_start_ms": 22000,
+      "planned_duration_ms": 3000,
+      "action_context": "",
+      "audio": {
+        "type": "room_tone",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH06",
+      "sequence": 6,
+      "planned_start_ms": 25000,
+      "planned_duration_ms": 8000,
+      "action_context": "Amaya explains with quiet confidence",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "amaya",
+        "text_original": "ඉතින් අපි හැම frame එකකම ඔයාව මැද තියන්නේ නැතුව, මේ සින්දුව ස්පර්ශ කරන සාමාන්‍ය මිනිස්සුන්ගේ ජීවිතවල කෑලි follow කරනවා.",
+        "text_for_tts": "ඉතින් අපි හැම frame එකකම ඔයාව මැද තියන්නේ නැතුව, මේ සින්දුව ස්පර්ශ කරන සාමාන්‍ය මිනිස්සුන්ගේ ජීවිතවල කෑලි follow කරනවා.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "quiet_confidence",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH07",
+      "sequence": 7,
+      "planned_start_ms": 33000,
+      "planned_duration_ms": 5000,
+      "action_context": "Aken listens; Amaya continues off-screen",
+      "audio": {
+        "type": "voiceover",
+        "speaker_id": "amaya",
+        "text_original": "ඔයාගේ image එක එන්නේ පස්සේ. කතාව ප්‍රේක්ෂකයාව අල්ලගත්තට පස්සේ.",
+        "text_for_tts": "ඔයාගේ image එක එන්නේ පස්සේ. කතාව ප්‍රේක්ෂකයාව අල්ලගත්තට පස්සේ.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "quiet_confidence",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH08",
+      "sequence": 8,
+      "planned_start_ms": 38000,
+      "planned_duration_ms": 3000,
+      "action_context": "Aken leans forward",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "aken",
+        "text_original": "මම කොහෙද?",
+        "text_for_tts": "මම කොහෙද?",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "direct_question",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH09",
+      "sequence": 9,
+      "planned_start_ms": 41000,
+      "planned_duration_ms": 4000,
+      "action_context": "Amaya answers evenly",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "amaya",
+        "text_original": "Campaign එකේ ඉන්නවා. හැම image එකකම නෑ, ඒ විතරයි.",
+        "text_for_tts": "Campaign එකේ ඉන්නවා. හැම image එකකම නෑ, ඒ විතරයි.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "even_unbothered",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH10",
+      "sequence": 10,
+      "planned_start_ms": 45000,
+      "planned_duration_ms": 3000,
+      "action_context": "Aken flat and firm",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "aken",
+        "text_original": "මම ඇහුවේ ඒක නෙවෙයි.",
+        "text_for_tts": "මම ඇහුවේ ඒක නෙවෙයි.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "flat_firm",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH11",
+      "sequence": 11,
+      "planned_start_ms": 48000,
+      "planned_duration_ms": 3000,
+      "action_context": "",
+      "audio": {
+        "type": "click_room_tone",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH12",
+      "sequence": 12,
+      "planned_start_ms": 51000,
+      "planned_duration_ms": 3000,
+      "action_context": "",
+      "audio": {
+        "type": "room_tone",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH13",
+      "sequence": 13,
+      "planned_start_ms": 54000,
+      "planned_duration_ms": 6000,
+      "action_context": "Amaya gestures at projected portrait",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "amaya",
+        "text_original": "මේ තමයි key visual එක. හැබැයි ප්‍රේක්ෂකයා මෙතනට එන්නේ කතාව පටන් ගත්තට පස්සේ.",
+        "text_for_tts": "මේ තමයි key visual එක. හැබැයි ප්‍රේක්ෂකයා මෙතනට එන්නේ කතාව පටන් ගත්තට පස්සේ.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "measured_explanation",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH14",
+      "sequence": 14,
+      "planned_start_ms": 60000,
+      "planned_duration_ms": 2000,
+      "action_context": "",
+      "audio": {
+        "type": "silence",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH15",
+      "sequence": 15,
+      "planned_start_ms": 62000,
+      "planned_duration_ms": 6000,
+      "action_context": "Aken controlled irritation",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "aken",
+        "text_original": "මිනිස්සු මගේ release එක එනකම් බලාගෙන ඉන්නේ. ඇයි මේ කාගේ සින්දුවද කියලා අනුමාන කරන්න තියන්නේ?",
+        "text_for_tts": "මිනිස්සු මගේ release එක එනකම් බලාගෙන ඉන්නේ. ඇයි මේ කාගේ සින්දුවද කියලා අනුමාන කරන්න තියන්නේ?",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "controlled_irritation",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH16",
+      "sequence": 16,
+      "planned_start_ms": 68000,
+      "planned_duration_ms": 7000,
+      "action_context": "Amaya holds his gaze",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "amaya",
+        "text_original": "හඳුනාගන්න එකයි කුතුහලයයි දෙකටම එකට වැඩ කරන්න පුළුවන්. ඔයාගේ නම හැම material එකකම තියෙනවා.",
+        "text_for_tts": "හඳුනාගන්න එකයි කුතුහලයයි දෙකටම එකට වැඩ කරන්න පුළුවන්. ඔයාගේ නම හැම material එකකම තියෙනවා.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "measured",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH17",
+      "sequence": 17,
+      "planned_start_ms": 75000,
+      "planned_duration_ms": 6000,
+      "action_context": "Wide master; Amaya continues off-screen",
+      "audio": {
+        "type": "voiceover",
+        "speaker_id": "amaya",
+        "text_original": "මම කියන්නේ, ගායකයාව අගය කරන්න කියන්න කලින්, සින්දුවට හැඟීමක් ඇති කරන්න ඉඩ දෙමු කියලා.",
+        "text_for_tts": "මම කියන්නේ, ගායකයාව අගය කරන්න කියන්න කලින්, සින්දුවට හැඟීමක් ඇති කරන්න ඉඩ දෙමු කියලා.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "persuasive_calm",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH18",
+      "sequence": 18,
+      "planned_start_ms": 81000,
+      "planned_duration_ms": 4000,
+      "action_context": "",
+      "audio": {
+        "type": "silence_ac_hum",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH19",
+      "sequence": 19,
+      "planned_start_ms": 85000,
+      "planned_duration_ms": 5000,
+      "action_context": "Aken slight edge",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "aken",
+        "text_original": "මිනිස්සුන්ට දැනෙන්නේ කොහොමද කියලා මතක් කරලා දෙන්න ඕනේ කියලද ඔයා හිතන්නේ?",
+        "text_for_tts": "මිනිස්සුන්ට දැනෙන්නේ කොහොමද කියලා මතක් කරලා දෙන්න ඕනේ කියලද ඔයා හිතන්නේ?",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "challenging",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH20",
+      "sequence": 20,
+      "planned_start_ms": 90000,
+      "planned_duration_ms": 6000,
+      "action_context": "Amaya calm and certain",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "amaya",
+        "text_original": "නෑ. දැනෙන්නේ කොහොමද කියලා එයාලා දැනටමත් දන්නවා. ඒ නිසා තමයි මේක වැඩ කරන්නේ.",
+        "text_for_tts": "නෑ. දැනෙන්නේ කොහොමද කියලා එයාලා දැනටමත් දන්නවා. ඒ නිසා තමයි මේක වැඩ කරන්නේ.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "calm_certain",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH21",
+      "sequence": 21,
+      "planned_start_ms": 96000,
+      "planned_duration_ms": 4000,
+      "action_context": "Aken sits back",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "aken",
+        "text_original": "අපි කලිනුත් සාර්ථක campaigns කරලා තියෙනවා.",
+        "text_for_tts": "අපි කලිනුත් සාර්ථක campaigns කරලා තියෙනවා.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "defensive",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH22",
+      "sequence": 22,
+      "planned_start_ms": 100000,
+      "planned_duration_ms": 2000,
+      "action_context": "Amaya polite nod",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "amaya",
+        "text_original": "ඒක මම දන්නවා.",
+        "text_for_tts": "ඒක මම දන්නවා.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "polite",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH23",
+      "sequence": 23,
+      "planned_start_ms": 102000,
+      "planned_duration_ms": 4000,
+      "action_context": "Aken pressing",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "aken",
+        "text_original": "ඒත් වැඩ කරන දේ අයින් කරලා experiment එකක් දාන්න ඔයාට ඕනේ.",
+        "text_for_tts": "ඒත් වැඩ කරන දේ අයින් කරලා experiment එකක් දාන්න ඔයාට ඕනේ.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "pressing",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH24",
+      "sequence": 24,
+      "planned_start_ms": 106000,
+      "planned_duration_ms": 4000,
+      "action_context": "Amaya does not back down",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "amaya",
+        "text_original": "මට ඕනේ මේ සින්දුවටම අයිති අදහසක් test කරලා බලන්න.",
+        "text_for_tts": "මට ඕනේ මේ සින්දුවටම අයිති අදහසක් test කරලා බලන්න.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "firm",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH25",
+      "sequence": 25,
+      "planned_start_ms": 110000,
+      "planned_duration_ms": 5000,
+      "action_context": "",
+      "audio": {
+        "type": "silence",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH26",
+      "sequence": 26,
+      "planned_start_ms": 115000,
+      "planned_duration_ms": 5000,
+      "action_context": "Aken decisive",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "aken",
+        "text_original": "එහෙනම් සාමාන්‍ය version එකකුත් හදන්න. මට දෙකම compare කරලා බලන්න ඕනේ.",
+        "text_for_tts": "එහෙනම් සාමාන්‍ය version එකකුත් හදන්න. මට දෙකම compare කරලා බලන්න ඕනේ.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "decisive",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH27",
+      "sequence": 27,
+      "planned_start_ms": 120000,
+      "planned_duration_ms": 4000,
+      "action_context": "Amaya agrees",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "amaya",
+        "text_original": "ඒක හොඳයි. අපි දෙකම එකම audience එකකට test කරමු.",
+        "text_for_tts": "ඒක හොඳයි. අපි දෙකම එකම audience එකකට test කරමු.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "agreeable_composed",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH28",
+      "sequence": 28,
+      "planned_start_ms": 124000,
+      "planned_duration_ms": 4000,
+      "action_context": "",
+      "audio": {
+        "type": "silence",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH29",
+      "sequence": 29,
+      "planned_start_ms": 128000,
+      "planned_duration_ms": 4000,
+      "action_context": "",
+      "audio": {
+        "type": "chairs_movement",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH30",
+      "sequence": 30,
+      "planned_start_ms": 132000,
+      "planned_duration_ms": 4000,
+      "action_context": "Dilan smooths things over",
+      "audio": {
+        "type": "dialogue",
+        "speaker_id": "dilan",
+        "text_original": "Results ආවම අපිට කියන්න. Thank you, everyone.",
+        "text_for_tts": "Results ආවම අපිට කියන්න. Thank you, everyone.",
+        "language_code": "si-LK",
+        "delivery": {
+          "tone": "professional_smooth",
+          "intensity": "subtle",
+          "instruction": "Deliver as natural conversational Sri Lankan Sinhala, with the emotion indicated by tone; avoid announcer-style delivery."
+        },
+        "pause_before_ms": 180,
+        "pause_after_ms": 250,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH31",
+      "sequence": 31,
+      "planned_start_ms": 136000,
+      "planned_duration_ms": 4000,
+      "action_context": "",
+      "audio": {
+        "type": "footsteps_door",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    },
+    {
+      "shot_id": "E01-S03-SH32",
+      "sequence": 32,
+      "planned_start_ms": 140000,
+      "planned_duration_ms": 4000,
+      "action_context": "",
+      "audio": {
+        "type": "room_tone",
+        "speaker_id": null,
+        "text_original": "",
+        "text_for_tts": null,
+        "language_code": null,
+        "delivery": {
+          "tone": "neutral",
+          "intensity": "subtle",
+          "instruction": null
+        },
+        "pause_before_ms": 0,
+        "pause_after_ms": 0,
+        "allow_overrun": true,
+        "generated_asset": null
+      }
+    }
+  ]
+}
